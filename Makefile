@@ -14,4 +14,4 @@ clean:
 	rm -f $(OBJECT) $(EXECUTABLE) 
 
 run: $(EXECUTABLE)
-	./$(EXECUTABLE).exe
+	./$(EXECUTABLE)
