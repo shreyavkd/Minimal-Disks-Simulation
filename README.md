@@ -16,3 +16,15 @@ The code simulates the random motion of hard disks inside a box with hard walls.
 
 - **.gitignore**: Lists files to be ignored while uploading (due to redundancy).
 
+## Execution Instructions
+- **Compilation**:
+	g++ main.cpp system.cpp disk.cpp -o simulation
+
+- **Execution**:
+	./simulation
+	(or)
+	./simulation.exe
+
+- **Visualisation**:
+	python view.py
+	(or alternative versions of python ex. python3)
