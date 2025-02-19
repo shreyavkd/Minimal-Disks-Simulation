@@ -18,6 +18,7 @@ The code simulates the random motion of hard disks inside a box with hard walls.
 
 - **.gitignore**: Lists files to be ignored while uploading (due to redundancy).
 
+- (extra) **Makefile**: Used to make execution more compact.
 ---
 
 ## Cloning from Git
@@ -39,3 +40,21 @@ The code simulates the random motion of hard disks inside a box with hard walls.
 	(or alternative versions of python ex. python3)
 
 ---
+
+### Optional: Using "make"
+- **Compilation**:
+	make
+
+- **Execution**:
+	make run
+
+- **Visualisation**:
+	python view.py
+	(or alternative versions of python ex. python3)
+
+---
+
+#### Note:
+In case of cloning from GitHub repository, create folder 'confs' using bash command
+mkdir confs
+
