@@ -19,7 +19,13 @@ The code simulates the random motion of hard disks inside a box with hard walls.
 - **.gitignore**: Lists files to be ignored while uploading (due to redundancy).
 
 - (extra) **Makefile**: Used to make execution more compact.
+
+- **Folder: Instructions**: Contains instruction given for updating files.
+	- **instructions.html**: Contains overview of instructions for uploading code & submitting coursework.
+	- **refman.pdf**: Reference Manual for designing the system.
+
 ---
+
 
 ## Cloning from Git
 	git clone https://github.com/shreyavkd/qd23817_Test2
