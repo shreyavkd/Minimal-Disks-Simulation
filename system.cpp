@@ -55,8 +55,9 @@ void System::enforceBoundaries(Disk & disk) {
         if (disk.y > boxSize) disk.y = boxSize;
 }
 
-double System::uniform(double a, double b) {
-    return a + (b - a) * dist(gen);
+double System::uniform(double min, double max) {
+    double diff= max - min;
+    return min + diff*dist(gen); //generates random number between min and max
 }
     
 // HINT: PROVIDE A DEFINITION FOR A MEMBER FUNCTION OF THE SYSTEM CLASS CALLED uniform
