@@ -13,7 +13,7 @@ void Disk::move(double dx, double dy){
 }
 
 double Disk::distance(Disk& other){
-    double dx = this->x - other.x;
-    double dy = this->y - other.y;   
-    return std::sqrt(dx * dx + dy * dy);
+    double dx= this->x - other.x;
+    double dy= this->y - other.y;   
+    return std::sqrt(dx*dx + dy*dy);
 }
