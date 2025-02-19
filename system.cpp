@@ -1,9 +1,8 @@
-#include "system.h"
-#include "disk.h"
 #include <iostream>
 #include <fstream>
+#include "system.h"
+#include "disk.h"
 #include <random>
-//HINT: COMPLETE THE INCLUDE STATEMENT
 
 System::System(int N, double displacement,double radius, double boxSize, int seed) {
 
@@ -31,7 +30,7 @@ bool System::overlap(int i){
 }
 
 void System::step() {
-    for (int i=0; i<disks.size(); ++i) 
+    for (int i=0; i<disks.size(); ++i) // i must be initialised at 0 since it is being declared in the loop
     {
         int selected_disk = std::rand() % disks.size();
         double oldx = disks[selected_disk].x;
