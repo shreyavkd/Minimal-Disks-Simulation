@@ -7,7 +7,7 @@ public:
 
     Disk(double x, double y, double r);
     void move(double dx, double dy);
-    double distance(Disk& other);
+    double distance(Disk& d);
 };
 
-#endif // DISK_H
+#endif // !DISK_H
