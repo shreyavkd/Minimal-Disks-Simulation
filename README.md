@@ -4,3 +4,15 @@
 ## Description
 The code simulates the random motion of hard disks inside a box with hard walls.
 
+## File Descriptions
+- **disk.h**: Defines 'Disk' class for individual disks.
+- **system.h**: Defines 'System' class modelling the motion of the disks.
+
+- **disk.cpp**: Initialises member functions of 'Disk' class.
+- **system.cpp**: Initialises member functions of 'System' class.
+- **main.cpp**: Beginning of code execution to run the simulation.
+
+- **view.py / view.ipynb**: Used to visualise the system.
+
+- **.gitignore**: Lists files to be ignored while uploading (due to redundancy).
+
