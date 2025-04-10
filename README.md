@@ -28,7 +28,7 @@ The code simulates the random motion of hard disks inside a box with hard walls.
 
 
 ## Cloning from Git
-	git clone https://github.com/shreyavkd/qd23817_Test2
+	git clone https://github.com/shreyavkd/Minimal-Disks-Simulation
 
 ---
 
